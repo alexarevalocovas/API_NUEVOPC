@@ -326,5 +326,21 @@
   "AlumnoJuegoEvaluado": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "JuegoDeCompeticionTorneo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AlumnoJuegoDeCompeticionTorneo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EquipoJuegoDeCompeticionTorneo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EnfrentamientoTorneo": {
+    "dataSource": "db",
+    "public": true
   }
 }

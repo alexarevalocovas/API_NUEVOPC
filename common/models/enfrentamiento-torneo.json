@@ -1,25 +1,22 @@
 {
-  "name": "FamiliaImagenesPerfil",
-  "plural": "familiasImagenesPerfil",
+  "name": "EnfrentamientoTorneo",
+  "plural": "EnfrentamientosTorneo",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "NombreFamilia": {
-      "type": "string",
-      "required": true
-    },
-    "NumeroImagenes": {
+    "JugadorUno": {
       "type": "number",
       "required": true
     },
-    "Imagenes": {
-      "type": [
-        "string"
-      ],
+    "JugadorDos": {
+      "type": "number",
       "required": true
+    },
+    "Ganador": {
+      "type": "number"
     }
   },
   "validations": [],

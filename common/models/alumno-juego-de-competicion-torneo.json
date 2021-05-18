@@ -1,30 +1,26 @@
 {
-  "name": "AsistenciaClase",
-  "plural": "AsistenciasClase",
+  "name": "AlumnoJuegoDeCompeticionTorneo",
+  "plural": "AlumnosJuegoDeCompeticionTorneo",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {
-    "Hora": {
-      "type": "string"
-    }
-  },
+  "properties": {},
   "validations": [],
   "relations": {
-    "sesionClase": {
+    "alumno": {
       "type": "belongsTo",
-      "model": "SesionClase",
-      "foreignKey": "sesionClaseId",
+      "model": "Alumno",
+      "foreignKey": "AlumnoId",
       "options": {
         "nestRemoting": true
       }
     },
-    "matricula": {
+    "juegoDeCompeticionTorneo": {
       "type": "belongsTo",
-      "model": "Matricula",
-      "foreignKey": "matriculaId",
+      "model": "JuegoDeCompeticionTorneo",
+      "foreignKey": "JuegoDeCompeticionTorneoId",
       "options": {
         "nestRemoting": true
       }
